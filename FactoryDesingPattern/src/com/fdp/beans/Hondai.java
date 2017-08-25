@@ -2,6 +2,11 @@ package com.fdp.beans;
 
 public class Hondai implements Car {
 
+    
+	public Hondai getHondaiInfo(){
+		Hondai hondai =  new Hondai();
+		return hondai ;
+	}
 	@Override
 	public String carName() {
 
@@ -23,6 +28,11 @@ public class Hondai implements Car {
 	public String carStaring() {
 		
 		return "Car Stairing : Power Stairing";
+	}
+
+	public void setHondaiInfo(){
+		Hondai hondai =  new Hondai();
+		System.out.println(" Hondai..............");
 	}
 
 }
