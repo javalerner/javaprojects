@@ -2,6 +2,10 @@ package com.fdp.beans;
 
 public class Alto implements Car{
 
+	public Alto getAltoInformation(){
+		Alto alto = new Alto();
+		return alto;
+	}
 	@Override
 	public String carName() {
 		return "Car Name : Indica";
