@@ -2,6 +2,12 @@ package com.fdp.beans;
 
 public class Hondai implements Car {
 
+	
+	
+	public   Hondai() {
+		// TODO Auto-generated constructor stub
+		super();
+	}
 	@Override
 	public String carName() {
 
@@ -24,5 +30,9 @@ public class Hondai implements Car {
 		
 		return "Car Stairing : Power Stairing";
 	}
-
+	public void getHyndaiInfo()
+	{
+		
+		System.out.println("new method added...");
+	}
 }

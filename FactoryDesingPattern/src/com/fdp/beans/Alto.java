@@ -2,6 +2,12 @@ package com.fdp.beans;
 
 public class Alto implements Car{
 
+	public void getAltoDetails()
+	{
+		
+		System.out.println("new method added...");
+	}
+	
 	@Override
 	public String carName() {
 		return "Car Name : Indica";
@@ -22,5 +28,9 @@ public class Alto implements Car{
 		return "Car Stairing : Non-Power Stairing";
 	}
 	
-
+	public void getDatas()
+	{
+		
+		System.out.println("new Data found...");
+	}
 }
