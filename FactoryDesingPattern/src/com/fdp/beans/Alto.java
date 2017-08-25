@@ -29,9 +29,17 @@ public class Alto implements Car{
 		return "Car Engine : 280cc";
 	}
 
+	public String carSpeeds() {
+		return "Car speed : 280cc";
+	}
+
+	public String carDrivingTools() {
+		return "carDrivingTools";
+	}
 	@Override
 	public String carStaring() {
-		return "Car Stairing : Non-Power Stairing";
+    String starting = "Drum Drum....!";
+		return starting;
 	}
 	
 	public void getDatas()
