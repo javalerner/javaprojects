@@ -8,6 +8,12 @@ public class Alto implements Car{
 		System.out.println("new method added...");
 	}
 	
+	public Alto(){
+		super();
+	}
+	public String carWheels() {
+		return "Car Wheels : Updtaed";
+	}
 	@Override
 	public String carName() {
 		return "Car Name : Indica";

@@ -2,11 +2,13 @@ package com.fdp.beans;
 
 public class Hondai implements Car {
 
-	
-	
 	public   Hondai() {
 		// TODO Auto-generated constructor stub
 		super();
+	}
+		public Hondai getHondaiInfo(){
+		Hondai hondai =  new Hondai();
+		return hondai ;
 	}
 	@Override
 	public String carName() {
@@ -30,9 +32,9 @@ public class Hondai implements Car {
 		
 		return "Car Stairing : Power Stairing";
 	}
-	public void getHyndaiInfo()
-	{
-		
-		System.out.println("new method added...");
+	public void setHondaiInfo(){
+		Hondai hondai =  new Hondai();
+		System.out.println(" Hondai..............");
 	}
+
 }
