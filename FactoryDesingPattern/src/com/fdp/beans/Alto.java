@@ -2,6 +2,9 @@ package com.fdp.beans;
 
 public class Alto implements Car{
 
+	public String carWheels() {
+		return "Car Wheels : Updtaed";
+	}
 	@Override
 	public String carName() {
 		return "Car Name : Indica";
