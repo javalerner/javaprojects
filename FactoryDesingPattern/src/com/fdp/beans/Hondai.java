@@ -2,8 +2,11 @@ package com.fdp.beans;
 
 public class Hondai implements Car {
 
-    
-	public Hondai getHondaiInfo(){
+	public   Hondai() {
+		// TODO Auto-generated constructor stub
+		super();
+	}
+		public Hondai getHondaiInfo(){
 		Hondai hondai =  new Hondai();
 		return hondai ;
 	}
@@ -29,7 +32,6 @@ public class Hondai implements Car {
 		
 		return "Car Stairing : Power Stairing";
 	}
-
 	public void setHondaiInfo(){
 		Hondai hondai =  new Hondai();
 		System.out.println(" Hondai..............");
