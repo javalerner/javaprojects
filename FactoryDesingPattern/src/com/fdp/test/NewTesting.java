@@ -4,6 +4,8 @@ public class NewTesting
 {
 public static void main(String[] args) {
 	System.out.println("Added by Sami...!!!");
+	System.out.println("added sysout:Vishal");
+	System.out.println("added sysout:Vishal2");
 	System.out.println("New Addition....");
 }
 }
